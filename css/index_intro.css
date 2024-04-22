@@ -45,7 +45,7 @@ a:hover {
 @media only screen and (max-width: 1100px) {
 
     h1 {
-        font-size: 100px;
+        font-size: 80px;
         font-weight: bold;
         
     }
@@ -73,7 +73,7 @@ a:hover {
     .main {
         flex: 2.5;
         
-        height: 3400px;
+        height: 3600px;
         background-color: black;
         position: relative;
     
