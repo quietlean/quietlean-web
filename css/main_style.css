@@ -27,9 +27,7 @@
 
 }
 
-.main_header_text {
-    padding: 50px;
-}
+
 
 /*Kleine Geräte*/
 
@@ -61,6 +59,11 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .main_header_text {
+    padding-top: 50px;
+    padding-bottom: 50px;
     }
 
     
@@ -97,6 +100,10 @@
         align-items: center;
     }
 
+    .main_header_text {
+    padding: 50px;
+    }
+
 }
 
 /*Große Geräte*/
@@ -128,6 +135,10 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .main_header_text {
+    padding: 50px;
     }
 
 
