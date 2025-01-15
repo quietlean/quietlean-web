@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>#01</title>
+
+        <link rel="stylesheet" href="../../css/page_style.css">
+    </head>
+
+    <body>
+
+        <div class="nav_page">
+            <button class="menu-button" onclick="DropDown()">Menu</button>
+            <div id="menu-dropdown" class="back_home">
+                <a href="../../index.html">› Back Home</a><br>
+                <a href="../../html/Music.html">› Music</a><br>
+                <a href="../../html/Software.html">› Software</a><br>
+                <a href="../../html/Absent.html">› Absent</a><br>
+                <a href="../../html/Me.html">› Who am I?</a><br>
+                <a href="../../html/Contact.html">› Contact</a><br>
+
+            </div>
+        </div>
+
+        <div class="header_container">
+            <h1>#01</h1>
+        </div>
+
+        <main class="main_content_page">
+            <div class="page_content_container">
+
+               <p class="page_text">There is this this kind of electronic music, and I was wondering what it is that makes it feel
+                 like there is a common theme. I gave it some thought. At first, I thought it was just something emotional, but
+                 that didnt feel quite right. How could I describe it? Everytime I listen to these songs, it feels
+                 like something falls right into place. Feels a little bit like that image you have of an ideal human connection,
+                 where someone reaches into your head, pulls out the seaweed and gives you a hug. I'm not sure if humans can do that. 
+                 Some songs feel like I'm taking a hot shower and others make me feel like I've
+                 become a forest elf. <br><br>
+                
+                 So, I figured it'd be a good idea to through some of these songs into my first playlist. You could 
+                 argue that a good Playlist needs more contrast, but let's forget about that for today.<br><br>
+
+                 Enjoy the music ｡◕‿◕｡ 
+                </p>
+
+                <div class="choose-Playlist">
+                    <button onclick="showSpotify()" id="button-Spotify" >Spotify</button>
+                    <button onclick="showAppleMusic()" id="button-Apple-Music" >Apple Music</button>
+                </div>
+
+                <div class="Playlist-Container">
+                    <div id="Spotify-Playlist" class="playlist-Spotify">
+                        <iframe 
+                        style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/playlist/4TflQCbvHoEwOtjWnCJKEm?utm_source=generator&theme=0" 
+                        width="100%" height="600" 
+                        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy"></iframe>
+                    </div>
+                    
+                    <div id="AppleMusic-Playlist" class="playlist-AppleMusic">
+                        <iframe 
+                        allow="autoplay *; encrypted-media *;" frameborder="0" height="600" 
+                        style="width:100%;max-width:660px;overflow:hidden;background:transparent;" 
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                        src="https://embed.music.apple.com/de/playlist/web-01/pl.u-Ymb0DZPHPbdW9X5?l=en">
+
+                        </iframe>
+                    </div>
+                </div>
+                 <!--<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6vUT6jV502pZ2Pq9enNj0X?utm_source=generator&theme=0" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>-->
+
+                 <div style="text-align: center; margin-top: 150px;">
+                    <!--<p style="font-size: 15px;">Quietlean.</p>-->
+                 </div>
+            </div>
+
+            <img src="../../Pictures/quiet-grafittti copy.png" style="width: 100%;">
+            
+        </main>
+        <script src="../../java-script.js/DropDown"></script>
+    </body>
+</html>

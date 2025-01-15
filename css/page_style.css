@@ -17,7 +17,7 @@ body {
 
 
 p {
-    font-size: 20px;
+    font-size: 23px;
     color: white;
 }
 
@@ -37,32 +37,110 @@ h2 {
     
 }
 
+h3 {
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    flex: 1;
+    margin: 20px;
+}
+
 a {
-    font-size: 20px;
+    font-size: 23px;
     color: rgb(201, 102, 140);
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+table {
+    table-layout: fixed;
+    width: 90%;
+    border-collapse: collapse;
+    /*border: 3px solid rgb(255, 0, 255);*/
+    margin-left: 20px;
+    color: grey;
+    
+}
+
+td {
+    vertical-align: top;
+}
+
+iframe {
+    color: black;
+    border-radius: 1px;
+}
+
+
+
 .nav_page {
     width: 100%;
-    height: 40px;
-    position: sticky;
+    /*height: 40px;*/
+    position: fixed;
     top: 0;
+    z-index: 5;
 
     justify-content: center;
     align-items: center;
 
-    /*border: 2px solid white;*/
+    margin-left: 15px;
+    margin-top: 15px;
+
+    /*border: 2px solid rgb(2, 247, 63);*/
     
-    opacity: 0.9;
+    opacity: 1;
+    
+}
+
+.menu-button {
+    background-color: black;
+    border: 4px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 20px;
+
+    width: 154px;
+    padding: 8px;
+}
+
+.menu-button:hover {
+    background-color: rgb(19, 19, 19);
+}
+
+.back_home {
+    display: none;
+    width: 138px;
+    
+    margin-top: 6px;
+    padding: 8px;
+
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgb(0, 0, 0);
+    color: rgb(176, 255, 115);
+
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+.back_home a {
+    color: rgb(0, 0, 0);
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }
 
 .header_container {
     width: 100%;
     height: 150px;
+    margin-top: 50px;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
@@ -104,30 +182,65 @@ a:hover {
     
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
     
         justify-content: space-evenly;
         align-items: center;
         
         padding: 30px;
         border-top: 2px solid white;
+
+        /*border-style: solid;
+        border-width: 5px;
+        border-color: rgb(255, 0, 195);*/
+    }
+
+    .link-fuer-box-blog {
+        width: 100%;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*border-style: solid;
+        border-width: 5px;
+        border-color: rgb(0, 255, 81);*/
+        margin-top: 20px;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .page_content_container {
-        width: 33%;
+        /*width: 33%;*/
+        width: 700px;
         height: 100%;
     
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
     
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         
         padding: 30px;
         border-top: 2px solid white;
+
+        /*border-style: solid;
+        border-width: 5px;
+        border-color: rgb(255, 0, 195);*/
+    }
+
+    .link-fuer-box-blog {
+        width: 600px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*border-style: solid;
+        border-width: 5px;
+        border-color: rgb(0, 255, 81);*/
+        margin-top: 20px;
     }
 }
 
@@ -143,6 +256,8 @@ a:hover {
 }
 
 .page_text {
+    width: 90%;
+    line-height: 1.8;
     flex: 1;
     overflow-wrap: anywhere;
     font-weight: 100;
@@ -154,17 +269,140 @@ a:hover {
     padding: 20px;
 }
 
-.back_home {
-    width: 130px;
-    height: 30px;
-    margin-top: 20px;
-    padding: 8px;
 
-    background-color: rgb(0, 0, 0);
-    border: 2px solid rgb(255, 255, 255);
 
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+/* Das ist für den Blog */
+
+
+
+.header_blog_container {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: left;
+    text-align: left;
+
+    border: 4px solid white;
+    
+
+    transition: box-shadow 0.2s ease-in-out;
 }
 
+.header_blog_container:hover {
+    box-shadow: 8px 8px 0px rgb(225, 44, 113);
+}
+
+
+
+.blog-entry-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    flex: 2;
+
+    /*border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 0, 195);*/
+    
+    
+}
+
+.blog-description-text {
+    color: rgb(147, 147, 147);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.choose-Playlist {
+    width: 100%;
+    height: 45px;
+    margin: 40px;
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);*/
+
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0px;
+}
+
+
+
+#button-Spotify {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+
+    box-shadow: 4px 4px 0px rgb(30, 255, 0);
+}
+
+#button-Apple-Music {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    font-size: 23px;
+    color: white;
+
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+
+    
+}
+
+.button-shadow {
+    box-shadow: 4px 4px 0px rgb(30, 255, 0);
+}
+
+.Playlist-Container {
+    width: 80%;
+    align-items: center;
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);*/
+
+    display: grid;
+    grid-template-areas: "stack";
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+}
+
+.playlist-Spotify {
+    /*margin: 20px;*/
+    grid-area: stack;
+    display: block;
+    
+    z-index: 1;
+    width: 100%;
+}
+
+.playlist-AppleMusic {
+    grid-area: stack;
+    display: block;
+    z-index: 2;
+    width: 100%;
+
+    visibility: hidden;
+}
+
+.hide-Playlist {
+    visibility: hidden;
+}
+
+.show-Playlist {
+    visibility: visible;
+}

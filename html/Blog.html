@@ -11,8 +11,15 @@
     <body>
 
         <div class="nav_page">
-            <div class="back_home">
-                <a href="../index.html">Back Home</a>
+            <button class="menu-button" onclick="DropDown()">Menu</button>
+            <div id="menu-dropdown" class="back_home">
+                <a href="../index.html">› Back Home</a><br>
+                <a href="../html/Music.html">› Music</a><br>
+                <a href="../html/Software.html">› Software</a><br>
+                <a href="../html/Absent.html">› Absent</a><br>
+                <a href="../html/Me.html">› Who am I?</a><br>
+                <a href="../html/Contact.html">› Contact</a><br>
+
             </div>
         </div>
 
@@ -23,12 +30,64 @@
         <main class="main_content_page">
             <div class="page_content_container">
 
-                <p class="page_text">Here you can find my latest
-                    investigations on topics in music.
+                <p class="page_text">You finally made it to the glade, the vault, the abyss. Enjoy!
                 </p>
-                <p>My first entry still has to be done ♡҉٩(*´︶`*)۶҉</p>
+                <!--<p>My first entry still has to be done ♡҉٩(*´︶`*)۶҉</p>-->
+
+                <!--<img src="../Pictures/slowed-BIG-Web-Heart.gif" style="width: 30%; margin: 30px;">-->
+
+                <a href="Blog-Posts/01.html" class="link-fuer-box-blog">
+                    <div class="header_blog_container">
+                        <h3>Uh Ya! Electronic!</h3>
+
+                        <div class="blog-entry-description">
+
+                            <table>
+                                <tr>
+                                    <td style="width: 120px;"># Topic</td>
+                                    <td>› Electronic that's like a hot shower</td>
+                                </tr>
+                                <tr>
+                                    <td># Date</td>
+                                    <td>› 17.01.2025</td>
+                                </tr>
+                                <tr>
+                                    <td># Playlist</td>
+                                    <td>› yes</td>
+                                </tr>
+                                <tr>
+                                    <td># Technical</td>
+                                    <td>› no</td>
+                                </tr>
+                            </table>
+
+                            <!--Tabelle-->
+                            <!--
+                            <p class="blog-description-text">
+                                # Topic <br>
+                                # Date <br>
+                                # Playlist <br>
+                                # Technical <br>
+                            </p><br>
+
+                            <p class="blog-description-text">
+                                › Electronic that's like a hot shower<br>
+                                › 10.01.2025<br>
+                                › yes<br>
+                                › no <br>
+                            </p><br>
+                            -->
+
+                        </div>
+                    </div>
+                </a>
+
+                
+
             </div>
             
         </main>
+
+        <script src="../java-script.js/DropDown"></script>
     </body>
 </html>

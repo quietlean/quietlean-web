@@ -45,8 +45,8 @@
 
     .feld_level_2 {
         padding-top: 40px;
-        width: 80%;
-        height: 50%;
+        width: 350px;
+        height: 300px;
         /*border: 6px solid rgb(255, 255, 255); */
         display: flex;
         flex-direction: column;
@@ -72,7 +72,7 @@
 }
 
 /*Mittlere Geräte*/
-
+/*
 @media only screen and (min-width: 992px) {
 
     .feld_level_1 {
@@ -86,9 +86,10 @@
     }
 
     .feld_level_2 {
-        width: 30%;
-        height: 80%;
-        /*border: 6px solid rgb(255, 255, 255); */
+        
+        width: 240px;
+        height: 350px;
+        border: 6px solid rgb(255, 255, 255); 
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -107,10 +108,11 @@
     }
 
 }
+*/
 
 /*Große Geräte*/
 
-@media only screen and (min-width: 1450px) {
+@media only screen and (min-width: 1000px) { /*vorher 1450*/
 
     .feld_level_1 {
         width: 70%;
@@ -123,8 +125,8 @@
     }
 
     .feld_level_2 {
-        width: 23%;
-        height: 70%;
+        width: 240px;
+        height: 350px;
         /*border: 6px solid rgb(255, 255, 255); */
         display: flex;
         flex-direction: column;
