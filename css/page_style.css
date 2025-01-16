@@ -177,7 +177,7 @@ iframe {
 
 @media only screen and (max-width: 992px) {
     .page_content_container {
-        width: 80%;
+        width: 90%;
         height: 100%;
     
         display: flex;
@@ -197,7 +197,7 @@ iframe {
 
     .link-fuer-box-blog {
         width: 100%;
-        height: 240px;
+        height: 260px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -369,7 +369,7 @@ iframe {
 }
 
 .Playlist-Container {
-    width: 80%;
+    width: 90%;
     align-items: center;
     /*border-style: solid;
     border-width: 2px;
