@@ -40,7 +40,7 @@ h2 {
 h3 {
     font-size: 40px;
     color: white;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     flex: 1;
     margin: 20px;
 }
@@ -55,15 +55,7 @@ a:hover {
     text-decoration: underline;
 }
 
-table {
-    table-layout: fixed;
-    width: 90%;
-    border-collapse: collapse;
-    /*border: 3px solid rgb(255, 0, 255);*/
-    margin-left: 20px;
-    color: grey;
-    
-}
+
 
 td {
     vertical-align: top;
@@ -232,7 +224,7 @@ iframe {
 
     .link-fuer-box-blog {
         width: 600px;
-        height: 200px;
+        height: 100%; /*200px*/
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
