@@ -31,22 +31,13 @@ function visibilityCheck_Spotify() {
 
 function showAppleMusic() {
 
-  const ColorBlack = "rgb(0, 0, 0)";
-  const ColorDarkGreen = "rgb(9, 31, 6)";
-  const ColorWhite = "rgb(255, 255, 255)";
   const ColorGreen = "rgb(30, 255, 0)"
 
-  //Spotify.style.backgroundColor = ColorBlack;
-  //Spotify.style.color = ColorWhite;
-
-  //AppleMusic.style.backgroundColor = ColorDarkGreen;
-  //AppleMusic.style.color = ColorGreen;
-
   Spotify.style.boxShadow = "none";
-  AppleMusic.style["boxShadow"] = "4px 4px 0px rgb(30, 255, 0)";
+  AppleMusic.style["boxShadow"] = "4px 4px 0px rgb(178, 222, 97)";
 
   if (visibilityCheck_Spotify()) {
-    document.getElementById("Spotify-Playlist").classList.toggle("hide-Playlist");
+    document.getElementById("Spotify-Playlist").classList.toggle("hide-Playlist"); // die Klasse "hide-Playlist" wird eingeschalter oder hinzugefügt deshalb toggle
     document.getElementById("AppleMusic-Playlist").classList.toggle("show-Playlist");
 
     console.log("Spotify is visible.")
@@ -64,14 +55,8 @@ function showSpotify() {
   const ColorWhite = "rgb(255, 255, 255)";
   const ColorRed = "rgb(255, 0, 98)"
 
-  //Spotify.style.backgroundColor = ColorDarkRed;
-  //Spotify.style.color = ColorRed;
-
-  //AppleMusic.style.backgroundColor = ColorBlack;
-  //AppleMusic.style.color = ColorWhite;
-
   AppleMusic.style.boxShadow = "none";
-  Spotify.style["boxShadow"] = "4px 4px 0px rgb(30, 255, 0)";
+  Spotify.style["boxShadow"] = "4px 4px 0px rgb(178, 222, 97)";
 
   // Man kann hier das glieche toggle wie in der anderen Funktion benutzen weil es ja wie ein Ein/Aus-Schalter ist
   

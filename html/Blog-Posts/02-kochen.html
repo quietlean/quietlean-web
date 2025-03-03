@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>#02</title>
+
+        <meta property="og:title" content="02">
+        <meta property="og:description" content="What's your music in taste?">
+        <link rel="icon" href="../../Pictures/favicon-kreis1.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="../../css/page_style.css">
+        <link rel="stylesheet" href="../../css/blog_style.css">
+    </head>
+
+    <body>
+
+        <div class="nav_page">
+            <button class="menu-button" onclick="DropDown()">Menu</button>
+            <div id="menu-dropdown" class="back_home">
+                <a href="../../index.html">› Back Home</a><br>
+                <a href="../../html/Music.html">› Music</a><br>
+                <a href="../../html/Software.html">› Software</a><br>
+                <a href="../../html/Absent.html">› Absent</a><br>
+                <a href="../../html/Me.html">› Who am I?</a><br>
+                <a href="../../html/Contact.html">› Contact</a><br>
+
+            </div>
+        </div>
+
+        <div class="header_container">
+            <h1>#02</h1>
+        </div>
+
+        <main class="main_content_page">
+            <div class="page_content_container">
+
+               <p class="page_text">What goes better together than the two most delightful things in the world - music and food. 
+                Do it with your friends, family or the neighbouring alien. Here is our soft pretty punch fruit 
+                cocktail of a playlist for you. A gift for winter's final sigh or whatever time you‘re in at the moment!!
+                <br>
+                <br>
+                [ 5guls n Quietlean xo ]
+                </p>
+
+                
+
+                <div class="choose-Playlist">
+                    <button onclick="showSpotify()" id="button-Spotify" >Spotify</button>
+                    <button onclick="showAppleMusic()" id="button-Apple-Music" >Apple Music</button>
+                </div>
+                
+                <div class="Playlist-Container">
+                    <div id="Spotify-Playlist" class="playlist-Spotify">
+                        <iframe 
+                        style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/playlist/24RShnFwzZknZM8O3ve8PN?utm_source=generator&theme=0" 
+                        width="100%" height="600" 
+                        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy"></iframe>
+                    </div>
+                    <!--
+                    <div id="AppleMusic-Playlist" class="playlist-AppleMusic">
+                        <iframe 
+                        allow="autoplay *; encrypted-media *;" frameborder="0" height="600" 
+                        style="width:100%;max-width:660px;overflow:hidden;background:transparent;" 
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                        src="https://embed.music.apple.com/de/playlist/extra-01/pl.u-RRbV9dxu3gLJvW8?l=en"
+
+                        </iframe>
+                    </div>
+                    -->
+                    <div id="AppleMusic-Playlist" class="playlist-AppleMusic">
+                        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="600" 
+                        style="width:100%;max-width:660px;overflow:hidden;background:transparent;" 
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                        src="https://embed.music.apple.com/de/playlist/extra-01/pl.u-RRbV9dxu3gLJvW8?l=en"></iframe>
+                    </div>
+                </div>
+                
+                <img src="../../Pictures/Blog/Hacken2.gif" style="width: 100%; margin-top: 50px;">
+                
+            </div>
+
+            
+            
+        </main>
+
+        <script src="../../java-script.js/DropDown"></script>
+    </body>
+</html>
