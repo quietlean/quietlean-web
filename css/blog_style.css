@@ -8,6 +8,27 @@ table {
     
 }
 
+.Blog-link {
+    width: 100%;
+    margin-top: 90px;
+
+    text-align: center;
+    
+    
+}
+
+.header_container_blog {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    /*border: 2px solid rgb(255, 255, 255);*/
+
+    display: flex;
+}
+
 .header_blog_container-main {
     
     width: 100%;
@@ -17,6 +38,7 @@ table {
     
     align-items: left;
     text-align: left;
+    background-color: rgb(26, 26, 26);
     
 
     border: 4px solid white;

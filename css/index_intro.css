@@ -62,9 +62,10 @@ a:hover {
     .main {
         flex: 2.5;
         
-        height: 3600px;
+        height: 100%;  /*3600px*/
         background-color: black;
         position: relative;
+        padding-bottom: 20px;
     
         display: flex;
         flex-direction: column;
@@ -82,7 +83,7 @@ a:hover {
         height: 1000px;
         
         top: 0px;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(26, 26, 26);
         /*border: 2px solid rgb(255, 0, 0);*/
         
         display: flex;
@@ -156,7 +157,7 @@ a:hover {
         height: 100vh;
         position: sticky;
         top: 0px;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(26, 26, 26);
         border-right: 2px solid white;
         
         display: flex;
@@ -168,7 +169,7 @@ a:hover {
     .main {
         flex: 2.5;
         
-        height: 3200px;
+        height: 3100px;
         background-color: rgb(0, 0, 0);
         position: relative;
     
