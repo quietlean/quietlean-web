@@ -1,3 +1,7 @@
+:root {
+    --kasten-color: rgb(26, 26, 26);
+}
+
 @font-face {
     font-family: Nyata;
     
@@ -86,7 +90,7 @@ a:hover {
         height: 1000px;
         
         top: 0px;
-        background-color: rgb(26, 26, 26);
+        background-color: var(--kasten-color);
         /*border: 2px solid rgb(255, 0, 0);*/
         
         display: flex;
@@ -160,7 +164,7 @@ a:hover {
         height: 100vh;
         position: sticky;
         top: 0px;
-        background-color: rgb(26, 26, 26);
+        background-color: var(--kasten-color);
         border-right: 2px solid white;
         
         display: flex;
