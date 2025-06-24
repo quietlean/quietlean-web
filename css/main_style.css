@@ -199,7 +199,11 @@
 }
 
 
-
+.gif_one_container {
+    height: 150px;
+    background-image: url(../Video/green-walk-2\(1\).gif);
+    background-size: cover;
+}
 
 
 
