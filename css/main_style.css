@@ -1,6 +1,6 @@
-:root {
+/*:root {
     --kasten-color: rgb(26, 26, 26);
-}
+}*/
 
 .feld_level_2 p {
     font-size: 20px;
@@ -20,7 +20,7 @@
     margin: 20px;
     margin-bottom: 0px;
     /*background-color: rgb(26, 26, 26);*/
-    background: radial-gradient(at top, var(--kasten-color) 58%, rgb(39, 46, 41) 95%);
+    background: radial-gradient(at top, var(--kasten-color) 58%, rgb(43, 54, 41) 95%);
 } 
 
 .colorswitch {

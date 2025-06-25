@@ -1,5 +1,5 @@
 :root {
-    --kasten-color: rgb(26, 26, 26);
+    --kasten-color: rgb(17, 17, 17); /*dunkles grau: rgb(26, 26, 26)*/
 }
 
 @font-face {
@@ -57,12 +57,12 @@ a:hover {
         
     }
 
-    ul {
+    /*ul {
         text-align: left;
         padding-top: 15%;
         padding-bottom: 15%;
         padding-right: 33%;
-    }
+    }*/
 
     
     
@@ -110,13 +110,13 @@ a:hover {
         
     }
 
-    .nav_list {
+    .nav_list { /*Das ist die Navigation die auf kleinen Bildschirmen nicht angezeigt wird*/
         flex: 2;
         display: none;
-        border-bottom: 2px solid white;
+        /*border-bottom: 2px solid white;
 
         justify-content: space-evenly;
-        align-items: center;
+        align-items: center;*/
     }
 
     .small-nav-container {
@@ -153,8 +153,13 @@ a:hover {
 
     ul {
         text-align: left;
-        padding-top: 33%;
+        margin-top: 30%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 3%;
         padding-right: 33%;
+        /*border: 2px solid green;*/
+        border-left: 2px solid white;
     }
 
     .nav {
