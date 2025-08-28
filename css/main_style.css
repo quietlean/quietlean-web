@@ -1,6 +1,6 @@
-/*:root {
-    --kasten-color: rgb(26, 26, 26);
-}*/
+:root {
+    --feld-grau: rgb(49, 49, 49);
+}
 
 .feld_level_2 p {
     font-size: 20px;
@@ -20,7 +20,13 @@
     margin: 20px;
     margin-bottom: 0px;
     /*background-color: rgb(26, 26, 26);*/
-    background: radial-gradient(at top, var(--kasten-color) 58%, rgb(43, 54, 41) 95%);
+    /*background: radial-gradient(at top, var(--kasten-color) 58%, rgb(43, 54, 41) 95%);*/
+    background: radial-gradient(at top, var(--kasten-color) 55%, var(--feld-grau) 95%);
+
+    background-size: 100% 180%;
+    background-position: center 0%;
+    background-attachment: local;
+    overflow: auto;
 } 
 
 .colorswitch {
@@ -50,6 +56,10 @@
         justify-content: space-evenly;
         text-align: center;
         align-items: center;
+        margin-bottom: 40px;
+
+        border-bottom: 2px solid rgb(255, 255, 255);
+        background-color: var(--kasten-color);
     }
     
     .feld_level_1 {
@@ -75,7 +85,7 @@
         flex-direction: column;
         flex-wrap: wrap;
 
-        background-color: rgb(49, 49, 49);
+        background-color: var(--feld-grau);
     }
 
     .main_content {
@@ -147,6 +157,14 @@
         justify-content: space-evenly;
         text-align: center;
         align-items: center;
+
+        /*display: block;
+        align-items: left;*/
+
+        border-bottom: 2px solid rgb(255, 255, 255);
+        background-color: var(--kasten-color);
+
+        
     }
     
     .feld_level_1 {
@@ -177,7 +195,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background-color: rgb(49, 49, 49);
+        background-color: var(--feld-grau);
         
 
         
@@ -332,4 +350,13 @@
 
     /*position: absolute;*/
     bottom: 0;
+    
+}
+
+.footer-animation {
+    width: 400px;
+    height: 400px;
+    
+
+    display: block;
 }

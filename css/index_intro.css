@@ -27,6 +27,7 @@ ul li a {
     font-size: 20px;
     padding-right: 0px;
     
+    
 }
 
 
@@ -148,7 +149,8 @@ a:hover {
     h1 {
         font-size: 140px;
         
-        
+        /*border: 2px solid red;*/
+        text-align: right;
     }
 
     ul {
