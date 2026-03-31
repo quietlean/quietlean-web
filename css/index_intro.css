@@ -1,7 +1,7 @@
 :root {
     --kasten-color: rgb(0, 0, 0); /*dunkles grau: rgb(26, 26, 26)*/
     --background: rgb(0, 0, 0);
-    --linie: 2px; /* Das ist Breite für die Borders */
+    --linie: 1px; /* Das ist Breite für die Borders */
 }
 
 @font-face {
